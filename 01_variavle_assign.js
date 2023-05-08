@@ -1,0 +1,15 @@
+var myFullName;
+console.log(myFullName);
+myFullName = "Snehal Solunke";
+console.log(myFullName);
+myFullName = "Snehal Limmbaji solunke";
+console.log(myFullName);
+var myLove = "I Love only JavaScript";
+console.log(myLove);
+var firstName = "Snehal"; console.log(firstName);
+var lastName = "Solunke"; console.log(lastName);
+var age = "27"; console.log(age);
+var address = "Near Iskcon Pune"; console.log(address);
+var pincode = "411048"; console.log(pincode);
+var gender = "Male"; console.log(gender);
+var isMarried = "UnMarried"; console.log(isMarried);
