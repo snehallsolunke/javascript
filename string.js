@@ -1,10 +1,12 @@
-var firstName = "Snehal";
+var Name = "Snehal Solunke";
 
-console.log(firstName);
+console.log(Name);
 
-console.log("Total number of characters in first name: " + firstName.length);
+var length = Name.length;
+console.log("Total number of characters in first name: " + Name.length);
 
-var characterAtZeroIndex = firstName.charAt(0);
+var characterAtZeroIndex = Name.charAt(0);
 console.log(characterAtZeroIndex);
 
-var characterAtLastIndex = firstName.charAt(firstName.length - 1);
+var characterAtLastIndex = Name.charAt(Name.length - 1);
+
