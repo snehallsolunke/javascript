@@ -19,7 +19,5 @@ function Name(){
     var N=WordsCount.length;
     console.log(`String length:${L}, No. of words: ${N}, Result (StringLength/No. of Words):${L/N}`);
     console.log(`String length:${L}, No. of words: ${N}, Result (StringLength*No. of words):${L*N}`);
-
 }
- 
 Name( );
