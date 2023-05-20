@@ -19,3 +19,4 @@ eligibility(-10, `Tim`);
 eligibility(200, 'Sophia');
 eligibility(x,`Jack`);
 eligibility(null, `Helena`);
+eligibility();
