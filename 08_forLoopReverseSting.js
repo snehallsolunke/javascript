@@ -29,7 +29,6 @@ function reverseWord(word){
     }
 console.log(reverseString);
 }
-reverseWord("JavaScript");
 reverseWord("Google Chrome");
 reverseWord("Developer");
 
