@@ -1,0 +1,91 @@
+Pratiksha Mahajan
+to
+Everyone
+07:49 AM
+PM
+yes
+Rushikesh Ghurde
+to
+Everyone
+07:49 AM
+RG
+yes
+Lokesh Banarse
+to
+Everyone
+07:49 AM
+
+yes
+Priti Kekan
+to
+Everyone
+07:49 AM
+PK
+Yes
+Radhika Dod
+to
+Everyone
+07:50 AM
+RD
+yes
+Manisha Magdum
+to
+Everyone
+07:50 AM
+MM
+yes
+Rahul Chougule
+to
+Everyone
+07:50 AM
+RC
+yes
+Apurva kanade
+to
+Everyone
+07:50 AM
+AK
+yes
+Shivani S. Adgaonkar
+to
+Everyone
+07:50 AM
+SS
+yes
+Manisha Salunke
+to
+Everyone
+07:50 AM
+MS
+yes
+Codemind Technology
+to
+Everyone
+07:52 AM
+CT
+class Student {
+    constructor(name, age, gender,city){
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.city = city;
+    }
+    showDetails(){
+        console.log(`Details is ${this.name}, ${this.age}, ${this.gender}, ${this.city} `);
+
+    }
+}
+const abhijeet = new Student("Abhijeeet", 21, "Male", "Pune");
+const poonam = new Student("Poonam", 20, "Female", "Mumbai" );
+const rushi = new Student("Rushikesh", 23, "Male", "Indor");
+const snehal = new Student("Snehal", 22, "Male", "Pune");
+
+abhijeet.showDetails(); 
+snehal.showDetails();
+rushi.showDetails();
+
+const array = [abhijeet, poonam, rushi, snehal]; 
+
+for (const element of array) {  // for of loop
+    element.showDetails();
+}

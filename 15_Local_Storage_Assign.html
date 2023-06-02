@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Local Storage</h3>
+    <script>
+        window.localStorage.setItem("Name", "Mark Churchil");
+        window.localStorage.setItem("City", "Seattle");
+        window.localStorage.setItem("Pincode", "647468");
+        window.localStorage.setItem("District", "Washington");
+
+        const Name = window.localStorage.getItem("Name");
+        const City = window.localStorage.getItem("City");
+        const Pincode = window.localStorage.getItem("Pincode");
+        const District = window.localStorage.getItem("District");
+
+        console.log(Name);
+        console.log(City);
+        console.log(Pincode);
+        console.log(District);
+        window.localStorage.removeItem("City");
+        
+    </script>
+    
+</body>
+</html>
