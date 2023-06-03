@@ -19,7 +19,7 @@ const evn=[2,30,14,8];
 console.log(`Given Arry ${Arr}`); //
 console.log(`Even Array: ${evn}`);
 const concat= [...evn,...Arr];
-console.log(`Concated array is: ${concat}`);
+console.log(`Concatenated array is: ${concat}`);
 
 console.log(``);
 
@@ -37,14 +37,24 @@ const employee_info={ // object created
             street:"Wall Street"
         },
         city: `New York City`,
-        state: "NY",
-        country: "United State"
+        state: "New York",
+        country: "United States"
     },
-    mobiles:[`+1 344 1234`, `+7 212 790 8903`, `+49 234 5231`]
+    mobiles:[`+1 344 1234`, ` +7 212 790 8903`, ` +49 234 5231`]
  };
 console.log(`Employee Address is: ${employee_info.address.locality.colony},${employee_info.address.locality.street},${employee_info.address.city},${employee_info.address.state},${employee_info.address.country}` );
-console.log()
+console.log(`Mobile Nos. are: ${employee_info.mobiles}`);
 
+console.log(``);
+const jsn= JSON.parse( JSON.stringify(employee_info));
+jsn.salary.july=`80,000 INR`;
+console.log(`Original salary of July : ${employee_info.salary.july}`);
+console.log(`Updated salary of July: ${jsn.salary.july}`);
+
+jsn.country = "Switzerland";
+console.log(`Original country is : ${employee_info.address.country}.`);
+console.log(`Updated country is : ${jsn.country}.`);
 
 // console.log(JSON.stringify());
+console.log(employee_info.address.locality);
 
