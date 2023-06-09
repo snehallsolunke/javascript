@@ -1,7 +1,3 @@
-
-
-
-
 let setRollNums = new Set();
 setRollNums.add(10);
 setRollNums.add(20);
